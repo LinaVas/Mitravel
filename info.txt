@@ -1,0 +1,2 @@
+Шаблон с базовыми (на 04.03.22) файлами, используемыми мной в верстке.
+https://www.figma.com/file/Rqe97faOIqla2LV7wHxsjW/MaxGraph-Youtube-marathon-1.0-(Copy)?node-id=0%3A1

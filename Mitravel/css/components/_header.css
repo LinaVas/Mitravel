@@ -1,0 +1,61 @@
+.header {
+/*  background-color: #aaa;*/
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+  padding: 50px 0;
+}
+
+.header__social {}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+.social__item {}
+.social__item:not(:last-child) {
+  padding-right: 40px;
+}
+.social__item--fb {
+  width: 11px;
+  height: 20px;
+  background-image: url(../../img/icons/fb.svg);  
+  background-repeat: no-repeat;
+}
+.social__item--tw {
+  width: 20px;
+  height: 16px;
+  background-image: url(../../img/icons/tw.svg);
+  background-repeat: no-repeat;
+}
+.header__logo {}
+
+.logo {
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-family: 'SFProDisplay';
+  font-size: 22px;
+  line-height: 26px;  
+  letter-spacing: 2px;
+}
+
+.header__btn {
+  width: 48px;
+  height: 10px;
+  position: relative;
+}
+
+.btn-line {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn-line:last-child {
+  top: auto;
+  button: 0;
+}
+

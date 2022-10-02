@@ -1,0 +1,17 @@
+
+.container {
+  max-width: 1606px;
+  padding: 0 20px;  
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-reset {
+  border: none;
+  background-color: transparent;
+}

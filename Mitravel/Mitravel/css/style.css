@@ -1,0 +1,11 @@
+
+@import url('_normalize.css');
+@import url('_fonts.css');
+@import url('_global.css');
+@import url('_overall.css');
+@import url('_variables.css');
+
+/* COMPONENTS */
+@import url('./components/_header.css');
+@import url('./components/_hero.css');
+@import url('./components/_footer.css');

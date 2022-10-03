@@ -1,0 +1,77 @@
+.hero {
+	background-image: url(../../img/Background-hero.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 1080px;
+	width: 100%;
+	color: var(--white-color);
+}
+
+.hero__container {
+	padding-top: 219px;
+}
+
+.hero__link {
+	display: inline-block;
+	font-family: 'SF Pro Display';
+	font-size: 11px;
+	line-height: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 18px 30px;
+	margin-bottom: 40px;
+}
+
+.hero__title {
+	text-transform: capitalize;
+	font-family: 'SF Pro Display';
+	font-size: 80px;
+	line-height: 105%;
+	max-width: 35%;
+	margin-bottom: 40px;
+}
+
+.hero__descr {
+	font-family: 'SFCompactText';
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 59px;
+	max-width: 29%;
+}
+
+.hero__btn {
+	font-family: 'SF Pro Display';
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2.18182px;
+}
+
+.red-btn {
+	display: inline-block;
+	color: var(--white-color);
+	background-color: #E8594E;
+	padding: 33px 80px;
+	border-radius: 7%;
+	cursor: pointer;
+}
+
+.hero__search {}
+
+.hero__search_field {}
+
+.hero__search_btn {}
+
+.hero__slider {}
+
+.main-slider {}
+
+.swiper-container {}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.swiper-slide__media {}
+
+.swiper-slide__text {}

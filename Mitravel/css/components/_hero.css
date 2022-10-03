@@ -47,6 +47,48 @@
 	color: var(--white-color);
 	background-color: #E8594E;
 	padding: 33px 80px;
-	border-radius: 7%;
+	border-radius: 7px;
 	cursor: pointer;
+}
+
+
+.hero__bottom {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+}
+.hero__search {  
+  display: block;
+  position: absolute;
+	bottom: 0;
+}
+.form-search {
+  max-height: 120px;
+  min-height: 120px;
+  background: #fff;
+}
+.form-search__index {
+}
+.form-search__button {
+}
+.hero__slider {
+  
+  
+}
+.slider {
+}
+.slider-switch {
+}
+.slider__media {
+	max-width: 502px;
+  padding-bottom: 280px;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/Mitravel/img/slider-1.jpg);
+}
+.slider__name {
+	display: block;
+	max-height: 120px;
+  min-height: 120px;
+  background: var(--heaven-color);
 }

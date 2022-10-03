@@ -1,4 +1,4 @@
-.footer {}
+/* .footer {} */
 
 .footer__links {
     display: flex;
@@ -26,7 +26,7 @@
 .footer__title::after {
     content: "";
     display: block;
-    background-color: #57A773;
+    background-color: var(--heaven-color);
     width: 48px;
     height: 1px;
     margin: 32px 0;
@@ -39,7 +39,7 @@
     color: #959EA6;
 }
 
-.footer__btn {}
+/* .footer__btn {} */
 
 .footer__index {
     
@@ -65,7 +65,7 @@ border-radius: 8px;
     opacity: 0.5;
 }
 
-#form__email {}
+/* #form__email {} */
 
 .green_btn {
     display: block;
@@ -77,7 +77,7 @@ border-radius: 8px;
     padding: 25px 120px;
     width: 100%;
     color: var(--white-color);
-    background-color: var(--green-btn-color);
+    background-color: var(--heaven-color);
     letter-spacing: 2.18182px;
     border-radius: 8px;
     cursor: pointer;
@@ -110,4 +110,4 @@ border-radius: 8px;
     padding: 0 39px 0 0;
 }
 
-.privacy {}
+/* .privacy {} */

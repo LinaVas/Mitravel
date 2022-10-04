@@ -27,6 +27,7 @@
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'SF Pro Display';
     src: url('SFProDisplay-Semibold.eot');
@@ -55,50 +56,4 @@
         url('HelveticaNeueCyr-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-}
-
-
-.header {
-
-    // .header__social
-
-    &__social {
-    }
-
-    // .header__logo
-
-    &__logo {
-    }
-
-    // .header__btn
-
-    &__btn {
-    }
-}
-.container {
-}
-.flex {
-}
-.social {
-
-    // .social__item
-
-    &__item {
-    }
-
-    // .social__item--fb
-
-    &__item--fb {
-    }
-
-    // .social__item--tw
-
-    &__item--tw {
-    }
-}
-.logo {
-}
-.btn-reset {
-}
-.btn-line {
 }

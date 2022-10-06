@@ -56,5 +56,5 @@
 
 .btn-line:last-child {
   top: auto;
-  button: 0;
+  bottom: 0;
 }

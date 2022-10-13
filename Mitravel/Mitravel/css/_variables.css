@@ -3,4 +3,10 @@
 	--black-color: #000;
 	--dark-color: #1B1916;
 	--heaven-color: #73AFBA;
+	--hero-search: 120px;
+}
+@media (max-height: 880px) {
+	:root {
+	--hero-search: 100px;
+	}
 }

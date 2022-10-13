@@ -1,0 +1,23 @@
+.travel {}
+
+.travel__container {
+    max-width: 1606px;
+    padding: 150px 20px;
+    margin: 0 auto;
+  }
+  
+
+
+.travel__title {
+    max-width: 767px;
+    font-family: 'SFProDisplay';
+    font-size: 64px;
+    line-height: 125%;
+    color: #1C2E3D;
+    margin: 0 0 96px 0;
+}
+
+.travel__cards {
+    flex-wrap: nowrap;
+}
+.travel__cards:nth-last-child() {}

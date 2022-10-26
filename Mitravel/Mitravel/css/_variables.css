@@ -3,6 +3,9 @@
 	--black-color: #000;
 	--dark-color: #1B1916;
 	--heaven-color: #73AFBA;
+	--accent-color: #E8594E;	
+	--accent-hover-color: #e31d0e;
+	--neptune-hover-color: #4196a6;
 	--hero-search: 120px;
 }
 @media (max-height: 880px) {
@@ -10,3 +13,8 @@
 	--hero-search: 100px;
 	}
 }
+@media (max-height: 780px) {
+	:root {
+		--hero-search: 80px;
+		}
+	}
